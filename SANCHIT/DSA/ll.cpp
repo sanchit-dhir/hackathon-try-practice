@@ -70,6 +70,34 @@ class doublell{
         temp->prev->next = num;
         temp->prev = num;
     }
+    void delete_By_Value(int key) {
+        Node* temp = head;
+        while (temp && temp->data != key) {
+            temp = temp->next;
+        }
+        if (!temp) {
+            cout << "Value " << key << " not found in list\n";
+            return;
+        }
+        if (temp == head) {
+            head = head->next;
+            if (head) head->prev = NULL;
+        }
+        else if (temp == tail) {
+            tail = tail->prev;
+            if (tail) tail->next = NULL;
+        }
+        else {
+            temp->prev->next = temp->next;
+            temp->next->prev = temp->prev;
+        }
+        delete temp;
+    }
+    void get_val(){
+        int key;
+        cout << "Enter the value of Node which you want to delete ";
+        cin >> key;
+    }
     void print(){
         Node* temp= head;
         while(temp!=nullptr){
@@ -94,8 +122,16 @@ int main(){
     ll.push_front(2);
     ll.push_front(1);
     ll.print();
-    cout << "\n";
+    cout << endl;
+    cout << "List after Insertion: " << endl;
     ll.insert(4,3);
     ll.print();
-
+    cout << endl;
+    int key;
+    cout << "\nEnter the value which you want to delete: ";
+    cin >> key;
+    ll.delete_By_Value(key);
+    cout << "\nList after Deletion: " << endl;
+    ll.print();
+    return 0;
 }
