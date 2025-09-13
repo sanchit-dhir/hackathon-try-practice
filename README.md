@@ -1,5 +1,4 @@
 # hackathon-try-practice
-
 A collaborative practice repository designed to help developers sharpen their skills before participating in hackathons. This repo serves as a safe space to experiment, learn, and practice various programming concepts, algorithms, and development workflows.
 <p align="left"> <a href="https://img.shields.io"><img alt="Made with Love" src="https://img.shields.io/badge/made%20with-love-ff69b4.svg"></a> <a href="#license"><img alt="License" src="https://img.shields.io/badge/license-MIT-informational"></a> <a href="#contributing"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a> </p>
 
@@ -109,6 +108,9 @@ text
 Add your name here after making your first contribution!
 
 - [Sanchit Dhir](https://github.com/sanchit-dhir) - Repository Creator
+- [Sumit kumar](https://github.com/SUMIT98770) - Repository Creator
+
+- 
 
 ---
 
