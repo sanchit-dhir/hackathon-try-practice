@@ -108,9 +108,8 @@ text
 Add your name here after making your first contribution!
 
 - [Sanchit Dhir](https://github.com/sanchit-dhir) - Repository Creator
-
+- [Supanjit Singh](https://github.com/Supanjit-Singh) - repository creator
 - [Sumit kumar](https://github.com/SUMIT98770) - UI UX Designer
-
 
 ---
 
